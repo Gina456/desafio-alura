@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="es" dir="ltr">
+
+    <head>
+         <meta charset="UTF-8">
+        <title>DESAFIO</title>
+        <link rel="stylesheet" href="styleI2.CSS">
+
+    </head>
+
+
+
+
+    <body>
+
+
+        <div class="container">
+            <div class="logo">
+               <img class="logoImg"  src="imagenes/logo.png ">
+               <h1 class="tittle">Encriptador De Mensajes</h1>
+            </div> 
+
+            <div class="left"> 
+                <input class="textLeft" id="text-left" type="text" placeholder="Ingrese el texto aqui">
+               </div>
+               <div class= "right">
+                  <img src="imagenes/Cifrados3.webp"  id="imgenDerecha">
+                  
+                  <textarea id="text-right" name="name"  rows="8" cols="80" placeholder = "Ningún mensaje fue encontrado"></textarea>
+               </div >
+
+            <div class="left-button" >
+                <p id="text2">Solo minusculas y sin acento</p>
+                <input type="button" value= "Encriptar"  id= "botton-encriptar" onclick = "encrypt()" >
+                <input type="button" value= "Desencriptar" onclick = "decrypt()" id= "botton-desencriptar">
+                <input type="button" value= "Copiar" onclick = "copy()" id= "botton-copiar">
+                <script type="text/javascript" src="scriptI2.JS"></script>
+    </div>   </div >
+
+    </body>
+
+
+</html>
+
